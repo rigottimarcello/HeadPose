@@ -1,6 +1,10 @@
 import numpy as np
 import torch
-from torch.utils.serialization import load_lua
+#from torch.utils import load_lua
+
+#import torchfile
+#stuff = torchfile.load('a_bunch_of_stuff.t7')
+
 import os
 import scipy.io as sio
 import cv2
